@@ -13,7 +13,7 @@ export default function App() {
           <img src="https://cdn.pixabay.com/photo/2019/09/17/09/45/to-do-4483048_1280.jpg" className="img-fluid" width="700" height="400" alt="to do list image"/>
           <h2 className="my-3">Todos</h2>
           <p>Welcome to the Todo application!</p>
-<Link className="btn btn-primary">View Todos</Link>
+<Link to='/todo' className="btn btn-primary">View Todos</Link>
         </div>
       
       </main>
